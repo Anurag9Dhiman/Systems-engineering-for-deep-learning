@@ -1,0 +1,11 @@
+layer,dataflow,tile_rows,tile_cols,ops_per_image,bytes_per_image,cycles_per_image,intensity,achieved,attainable,bound
+conv1,inner,4,4,13140,43525,3651,0.3019,3.5984,4.8303,memory
+conv2,inner,4,4,97319,86227,13975,1.1286,6.9634,18.0581,memory
+fc1,inner,4,4,6568,13095,5038,0.5016,1.3037,8.0258,memory
+fc2,inner,4,4,176,296,79,0.5965,2.2323,9.5439,memory
+total,inner,4,4,117204,143144,22745,0.8188,5.1529,13.1006,memory
+conv1,outer,4,4,13140,51365,4667,0.2558,2.8152,4.0930,memory
+conv2,outer,4,4,97319,227347,17583,0.4281,5.5347,6.8490,memory
+fc1,outer,4,4,6568,46551,3867,0.1411,1.6983,2.2577,memory
+fc2,outer,4,4,176,708,67,0.2496,2.6310,3.9932,memory
+total,outer,4,4,117204,325972,26186,0.3596,4.4759,5.7529,memory
